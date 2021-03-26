@@ -1,6 +1,6 @@
 import flask
 
-app = flask.Flask(_name_)
+app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
 
