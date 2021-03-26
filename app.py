@@ -12,7 +12,5 @@ def home():
 def locations():
     return "(1,2)(4,3)(7,1)(2,6)"
 
-# Notice how socketio.run takes care of app instantiation as well.
-if __name__ == '__main__':
-    app.run()
+app.run()
 
